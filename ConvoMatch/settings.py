@@ -50,7 +50,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'Automart.urls'
+ROOT_URLCONF = 'ConvoMatch.urls'
 
 TEMPLATES = [
     {
@@ -68,7 +68,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'Automart.wsgi.application'
+WSGI_APPLICATION = 'ConvoMatch.wsgi.application'
 
 
 # Database
