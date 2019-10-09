@@ -1,0 +1,400 @@
+<!--Preguntas sin ser interactivas-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Preguntas</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<style>
+	.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    }
+    </style>
+<!--===============================================================================================-->
+	<link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="fonts/iconic/css/material-design-iconic-font.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/css-hamburgers/hamburgers.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/animsition/css/animsition.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/daterangepicker/daterangepicker.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/noui/nouislider.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="css/util.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+<!--===============================================================================================-->
+</head>
+<body>
+
+
+	<div class="container-contact100">
+		<div class="wrap-contact100">
+			<form class="contact100-form validate-form">
+				<span class="contact100-form-title">
+					Preguntas
+				</span>
+
+				<div class="wrap-input100 validate-input bg1" data-validate="Nombre">
+					<span class="label-input100">Nombre*</span>
+					<input class="input100" type="text" name="name" placeholder="Nombre">
+				</div>
+
+				<div class="wrap-input100 validate-input bg1 rs1-wrap-input100" data-validate = "Edad">
+					<span class="label-input100">Edad*</span>
+					<input class="input100" type="text" name="age" placeholder="Edad ">
+				</div>
+
+				<!--<div class="wrap-input100 bg1 rs1-wrap-input100">
+					<span class="label-input100">Phone</span>
+					<input class="input100" type="text" name="phone" placeholder="Enter Number Phone">
+				</div> -->
+
+				<div class="wrap-input100 input100-select bg1">
+					<span class="label-input100">¿Eres estudiante?*</span>
+					<div>
+						<select class="js-select2" name="service">
+							<option>Si</option>
+							<option>No</option>
+						</select>
+						<div class="dropDownSelect2"></div>
+					</div>
+				</div>
+
+
+				<div class="wrap-input100 input100-select bg1">
+					<span class="label-input100">Grado máximo de estudios*</span>
+					<div>
+						<select class="js-select2" name="service">
+							<option>Secundaria</option>
+							<option>Preparatoria</option>
+							<option>Universidad</option>
+							<option>Maestría</option>
+						</select>
+						<div class="dropDownSelect2"></div>
+					</div>
+				</div>
+
+				<div class="wrap-input100 validate-input bg1" data-validate="Institución Académica">
+					<span class="label-input100">Institución Académica*</span>
+					<input class="input100" type="text" name="name" placeholder="Institución Académica">
+				</div>
+
+
+				<div class="wrap-input100 validate-input bg1 rs1-wrap-input100" data-validate = "Promedio">
+					<span class="label-input100">Promedio (0-10)*</span>
+					<input class="input100" type="text" name="age" placeholder="Promedio">
+				</div>
+
+				<!--<div class="w-full dis-none js-show-service">-->
+					<div class="wrap-contact100-form-radio">
+						<span class="label-input100">Selecciona los idiomas que dominas*</span>
+
+						<div class="contact100-form-radio m-t-15">
+							<input class="input-radio100" id="radio1" type="radio" name="type-product" value="physical" checked="checked">
+							<label class="label-radio100" for="radio1">
+								Inglés
+							</label>
+						</div>
+
+						<div class="contact100-form-radio">
+							<input class="input-radio100" id="radio2" type="radio" name="type-product" value="digital">
+							<label class="label-radio100" for="radio2">
+								Francés
+							</label>
+						</div>
+
+						<div class="contact100-form-radio">
+							<input class="input-radio100" id="radio3" type="radio" name="type-product" value="service">
+							<label class="label-radio100" for="radio3">
+								Japonés
+							</label>
+						</div>
+						<div class="contact100-form-radio">
+							<input class="input-radio100" id="radio3" type="radio" name="type-product" value="service">
+							<label class="label-radio100" for="radio3">
+								Ninguno
+							</label>
+						</div>
+
+						<div class="contact100-form-radio">
+							<input class="input-radio100" id="radio2" type="radio" name="type-product" value="digital">
+							<label class="label-radio100" for="radio2">
+								Otro
+							</label>
+						</div>
+					</div>
+					<div class="wrap-input100 input100-select bg1">
+					<span class="label-input100">¿Cuentas con Visa americana*</span>
+					<div>
+						<select class="js-select2" name="service">
+							<option>Si</option>
+							<option>No</option>
+						</select>
+						<div class="dropDownSelect2"></div>
+					</div>
+				</div>
+					<div class="wrap-input100 input100-select bg1">
+					<span class="label-input100">¿Cuentas con pasaporte con vigencia mayor a 6 meses?*</span>
+					<div>
+						<select class="js-select2" name="service">
+							<option>Si</option>
+							<option>No</option>
+						</select>
+						<div class="dropDownSelect2"></div>
+					</div>
+				</div>
+					<div class="wrap-input100 input100-select bg1">
+					<span class="label-input100">¿Tienes una trayectoria social mayor a 2 años?*</span>
+					<div>
+						<select class="js-select2" name="service">
+							<option>Si</option>
+							<option>No</option>
+						</select>
+						<div class="dropDownSelect2"></div>
+					</div>
+				</div>
+				<div class="wrap-input100 input100-select bg1">
+					<span class="label-input100">¿Perteneces a alguna red de Educafín?*</span>
+					<div>
+						<select class="js-select2" name="service">
+							<option>Si</option>
+							<option>No</option>
+						</select>
+						<div class="dropDownSelect2"></div>
+					</div>
+				</div>
+				<div class="wrap-input100 input100-select bg1">
+					<span class="label-input100">¿Has formado parte de algún colectivo?*</span>
+					<div>
+						<select class="js-select2" name="service">
+							<option>Si</option>
+							<option>No</option>
+						</select>
+						<div class="dropDownSelect2"></div>
+					</div>
+				</div>
+					<div class="wrap-input100 input100-select bg1">
+					<span class="label-input100">¿Has realizado actividades de empoderamiento?*</span>
+					<div>
+						<select class="js-select2" name="service">
+							<option>Si</option>
+							<option>No</option>
+						</select>
+						<div class="dropDownSelect2"></div>
+					</div>
+				</div>
+				<span><center><img src="images/ODSLogoconvo.png" alt="" class= "center"></center></span>
+				<span><img src="images/ODSconvo.png" alt=""></span>
+						
+						<div class="wrap-contact100-form-radio">
+						<span class="label-input100">1.	El transporte público efectivo y de bajo costo es fundamental para la reducción de la pobreza y la desigualdad urbana porque facilita el acceso a empleos, atención médica, servicio educativos, y otros bienes públicos*</span>
+
+						<div class="contact100-form-radio m-t-15">
+							<input class="input-radio100" id="radio1" type="radio" name="type-product" value="physical" checked="checked">
+							<label class="label-radio100" for="radio1">
+								Si
+							</label>
+						</div>
+
+						<div class="contact100-form-radio">
+							<input class="input-radio100" id="radio2" type="radio" name="type-product" value="digital">
+							<label class="label-radio100" for="radio2">
+								No
+							</label>
+						</div>
+						</div>
+
+						<div class="wrap-contact100-form-radio">
+						<span class="label-input100">2. ¿Existe seguridad alimentaria cuando todas las personas tienen en todo momento acceso físico y económico a suficientes alimentos nutritivos para satisfacer sus necesidades alimenticias a fin de llevar una vida activa y sana?*</span>
+
+						<div class="contact100-form-radio m-t-15">
+							<input class="input-radio100" id="radio1" type="radio" name="type-product" value="physical" checked="checked">
+							<label class="label-radio100" for="radio1">
+								Si
+							</label>
+						</div>
+							<div class="contact100-form-radio">
+							<input class="input-radio100" id="radio2" type="radio" name="type-product" value="digital">
+							<label class="label-radio100" for="radio2">
+								No
+							</label>
+						</div>
+						</div>
+
+						<div class="wrap-contact100-form-radio">
+						<span class="label-input100">3. ¿Crees que la salud y las ciudades están muy interconectadas y que la salud muchas veces se ve afectada por el lugar en que se vive?*</span>
+
+						<div class="contact100-form-radio m-t-15">
+							<input class="input-radio100" id="radio1" type="radio" name="type-product" value="physical" checked="checked">
+							<label class="label-radio100" for="radio1">
+								Si
+							</label>
+						</div>
+
+						<div class="contact100-form-radio">
+							<input class="input-radio100" id="radio2" type="radio" name="type-product" value="digital">
+							<label class="label-radio100" for="radio2">
+								No
+							</label>
+						</div>
+						</div>
+
+						<div class="wrap-contact100-form-radio">
+						<span class="label-input100">4. ¿Consideras que la educación también ayuda a poner fin a todas las formas de discriminación y esto sea un elemento vital para el logro de ciudades inclusivas?*</span>
+
+						<div class="contact100-form-radio m-t-15">
+							<input class="input-radio100" id="radio1" type="radio" name="type-product" value="physical" checked="checked">
+							<label class="label-radio100" for="radio1">
+								Si
+							</label>
+						</div>
+
+						<div class="contact100-form-radio">
+							<input class="input-radio100" id="radio2" type="radio" name="type-product" value="digital">
+							<label class="label-radio100" for="radio2">
+								No
+							</label>
+						</div>
+						</div>
+
+						<div class="wrap-contact100-form-radio">
+						<span class="label-input100">5. ¿Las mujeres y hombres comparten las mismas necesidades en el espacio público?*</span>
+
+						<div class="contact100-form-radio m-t-15">
+							<input class="input-radio100" id="radio1" type="radio" name="type-product" value="physical" checked="checked">
+							<label class="label-radio100" for="radio1">
+								Si
+							</label>
+						</div>
+
+						<div class="contact100-form-radio">
+							<input class="input-radio100" id="radio2" type="radio" name="type-product" value="digital">
+							<label class="label-radio100" for="radio2">
+								No
+							</label>
+						</div>
+						</div>
+
+						<div class="wrap-contact100-form-radio">
+						<span class="label-input100">6. Las energías limpias no son vitales para el desarrollo de asentamientos humanos seguros, resilientes, inclusivos y sostenibles*</span>
+
+						<div class="contact100-form-radio m-t-15">
+							<input class="input-radio100" id="radio1" type="radio" name="type-product" value="physical" checked="checked">
+							<label class="label-radio100" for="radio1">
+								Si
+							</label>
+						</div>
+
+						<div class="contact100-form-radio">
+							<input class="input-radio100" id="radio2" type="radio" name="type-product" value="digital">
+							<label class="label-radio100" for="radio2">
+								No
+							</label>
+						</div>
+						</div>
+
+						
+
+				<div class="container-contact100-form-btn">
+					<button class="contact100-form-btn">
+						<span>
+							Finalizar
+							<i class="fa fa-long-arrow-right m-l-7" aria-hidden="true"></i>
+						</span>
+					</button>
+				</div>
+			</form>
+		</div>
+	</div>
+
+
+
+<!--===============================================================================================-->
+	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/animsition/js/animsition.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/bootstrap/js/popper.js"></script>
+	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/select2/select2.min.js"></script>
+	<script>
+		$(".js-select2").each(function(){
+			$(this).select2({
+				minimumResultsForSearch: 20,
+				dropdownParent: $(this).next('.dropDownSelect2')
+			});
+
+
+			$(".js-select2").each(function(){
+				$(this).on('select2:close', function (e){
+					if($(this).val() == "Please chooses") {
+						$('.js-show-service').slideUp();
+					}
+					else {
+						$('.js-show-service').slideUp();
+						$('.js-show-service').slideDown();
+					}
+				});
+			});
+		})
+	</script>
+<!--===============================================================================================-->
+	<script src="vendor/daterangepicker/moment.min.js"></script>
+	<script src="vendor/daterangepicker/daterangepicker.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/countdowntime/countdowntime.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/noui/nouislider.min.js"></script>
+	<script>
+	    var filterBar = document.getElementById('filter-bar');
+
+	    noUiSlider.create(filterBar, {
+	        start: [ 1500, 3900 ],
+	        connect: true,
+	        range: {
+	            'min': 1500,
+	            'max': 7500
+	        }
+	    });
+
+	    var skipValues = [
+	    document.getElementById('value-lower'),
+	    document.getElementById('value-upper')
+	    ];
+
+	    filterBar.noUiSlider.on('update', function( values, handle ) {
+	        skipValues[handle].innerHTML = Math.round(values[handle]);
+	        $('.contact100-form-range-value input[name="from-value"]').val($('#value-lower').html());
+	        $('.contact100-form-range-value input[name="to-value"]').val($('#value-upper').html());
+	    });
+	</script>
+<!--===============================================================================================-->
+	<script src="js/main.js"></script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-23581568-13');
+</script>
+
+</body>
+</html>
